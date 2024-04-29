@@ -16,11 +16,12 @@ public class Arithametic
 		System.out.println("value of"+z1);
 		return z1;
 	}
-	public void mul(int x2,int y2)
+	public int mul(int x2,int y2)
 	{
 		int z2;
 		z2=x2*y2;
 		System.out.println("value of"+z2);
+		return z2;
 	}
 	
 	public static void main(String[] args) {
